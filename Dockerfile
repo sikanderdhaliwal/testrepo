@@ -1,2 +1,2 @@
 FROM wordpress:php7.1-apache
-COPY . /var/www/html
+COPY wp-code/ /var/www/html/
